@@ -1,0 +1,22 @@
+ #galeria .col-lg-4  {
+    margin: 0 !important;
+    padding: 25px;
+ }
+
+ #galeria img {
+    width: 100%;
+    height: 250px;
+ }
+ #galeria img:hover {
+    border: 5px solid #fff;
+
+ }
+ body {
+    background-color: black;
+ }
+ h1 {
+    color: #fff;
+ }
+ h2 {
+    color: #fff;
+ }

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    background-color:rgb(111, 200, 223);
+    color:#fff;
+    font-family: "poppins";
+    font-size: 30px;
+    
+}
+
+.logo {
+    display:flex;
+    align-items: start;
+}
+
+nav ul {
+    background-color:rgb(111, 200, 223);
+    width: 100%;
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-flex;
+    }
+
+nav a {
+        text-decoration:none;
+        color: black;
+        padding: 10px;
+        width: 150px;
+        text-transform: uppercase;
+        font-size: 20px;
+ }
+
+    nav li:hover {
+        background-color: #fff;
+}
+
+div img {
+       display: flex;
+       align-content: center;
+       justify-content: space-around;
+       
+}
+       
+    
+.first.section {
+        background-image: url(https://drive.google.com/drive/folders/1jq7U5KgA9WWBQACsW39LT3tOxj9fqHXF/fondo.jpg); 
+        size-adjust: 100%;
+        padding: 150px 15px 20px 15px;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+     
+    }
+
+
+.estadisticas   {
+    text-decoration-color: #fff;
+    color: #fff;
+    text-align:center;
+    font-size: 40px;
+}
+
+.galeria {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia {
+    display: inline-block;
+}
+   
+
+
+.footer {
+    width: 100%;
+    background-color: rgb(35, 167, 167);
+    color: #21aaaf;
+    margin: 0;
+    padding: 0;
+}
+.div .foot {
+    display:inline-block;
+    align-items: center;
+    background-color: rgb(35, 167, 167);
+   
+}
+
