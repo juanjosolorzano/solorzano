@@ -4,93 +4,101 @@
     box-sizing: border-box;
 
 }
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    
+
+}
 
 h1 {
-    background-color:rgb(111, 200, 223);
-    color:#fff;
-    font-family: "poppins";
-    font-size: 30px;
+    color: black;
+    font-size: 40px;
+    padding-left: 40px;
+   
     
 }
 
-.logo {
-    display:flex;
-    align-items: start;
-}
+
 
 nav ul {
-    background-color:rgb(111, 200, 223);
+    background-color: black;
     width: 100%;
     list-style: none;
     text-align: right;
+    
 }
 
 nav li {
-    display: inline-flex;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+    
     }
 
 nav a {
-        text-decoration:none;
-        color: black;
-        padding: 10px;
+        text-decoration:solid;
+        color: white;
+        padding: 5px;
         width: 150px;
+        font-size: 30px;
         text-transform: uppercase;
-        font-size: 20px;
+        position: sticky;
  }
 
     nav li:hover {
-        background-color: #fff;
+        background-color: #6ba4b3;
 }
 
-div img {
-       display: flex;
-       align-content: center;
-       justify-content: space-around;
-       
-}
        
     
 .first.section {
-        background-image: url(https://drive.google.com/drive/folders/1jq7U5KgA9WWBQACsW39LT3tOxj9fqHXF/fondo.jpg); 
-        size-adjust: 100%;
-        padding: 150px 15px 20px 15px;
+        background-image: url(../img/estadio\ \(6\).JPG);
+        size-adjust: 80%;
+        padding: 120px 25px 180px 25px;
         height: 100%;
         background-size: cover;
-        background-position: center;
-     
+        background-position:bottom;
+}  
+h2 {
+    font-size: 60px;
+    padding-top: 0px;
+} 
+        
+.box-1 {
+   text-align: center;
+   font-size: 30px;
+   color: black;
+   text-decoration:solid;
+   padding-bottom: 290px;
     }
-
-
-.estadisticas   {
-    text-decoration-color: #fff;
-    color: #fff;
-    text-align:center;
-    font-size: 40px;
-}
-
-.galeria {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.historia {
-    display: inline-block;
-}
+   
    
 
-
-.footer {
+.box-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
     width: 100%;
-    background-color: rgb(35, 167, 167);
+    height: 400px;
+    padding-top: 190px;
+   
+}
+
+ .pie {
+    width: 100%;
+    background-color:black;
     color: #21aaaf;
     margin: 0;
     padding: 0;
 }
-.div .foot {
-    display:inline-block;
-    align-items: center;
-    background-color: rgb(35, 167, 167);
-   
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
 }
-
